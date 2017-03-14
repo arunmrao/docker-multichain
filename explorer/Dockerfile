@@ -1,5 +1,5 @@
-FROM kunstmaan/node-multichain
-MAINTAINER Roderik van der Veer
+FROM arunmrao/node-multichain
+MAINTAINER Roderik van der Veer, Arun Rao
 
 RUN apt-get update \
         && apt-get install -q -y python python-dev python-pip sqlite3 libsqlite3-dev \

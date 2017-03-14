@@ -1,5 +1,5 @@
-FROM kunstmaan/base-multichain
-MAINTAINER Roderik van der Veer
+FROM arunmrao/base-multichain
+MAINTAINER Roderik van der Veer, Arun Rao
 
 RUN multichain-util create dockerchain
 ADD ./params.dat /root/.multichain/dockerchain/params.dat

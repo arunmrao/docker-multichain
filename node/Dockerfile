@@ -1,5 +1,5 @@
-FROM kunstmaan/base-multichain
-MAINTAINER Roderik van der Veer
+FROM arunmrao/base-multichain
+MAINTAINER Roderik van der Veer, Arun Rao
 
 ADD ./connect-node.sh /root/connect-node.sh
 
